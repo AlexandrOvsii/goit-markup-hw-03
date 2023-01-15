@@ -71,7 +71,6 @@ ul {
   letter-spacing: 0.03em;
   color: #2e2f42;
   margin-right: 76px;
-  margin-left: 156px;
 }
 
 .menu {
@@ -93,6 +92,7 @@ ul {
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .logo-color {
@@ -146,7 +146,6 @@ ul {
   margin-bottom: 48px;
   text-align: center;
 }
-
 
 .modal-btn {
   font-weight: 500;
@@ -223,6 +222,7 @@ btn:focus {
 .benefits-description {
   letter-spacing: 0.02em;
   color: var(--primary-font-color);
+  line-height: 24px;
 }
 
 /*================== ABOUT ================== */
@@ -299,6 +299,7 @@ btn:focus {
 
 .team-content {
   padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /*================== FOOTER ================== */
@@ -307,6 +308,7 @@ btn:focus {
 }
 .footer-description {
   color: #e7e9fc;
+  max-width: 264px;
 }
 
 .footer-logo {
@@ -318,22 +320,29 @@ btn:focus {
   align-items: center;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  margin-bottom: 16px;
 }
 
 .footer-logo-color {
   color: #f4f4fd;
 }
 
+.footer-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 /*================== PORTFOLIO ================== */
 
 .portfolio-content {
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding: 32px 16px;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .portfolio-btn {
-  padding-top: 96px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   display: flex;
   justify-content: center;
 }
@@ -348,7 +357,7 @@ btn:focus {
 }
 
 .portfolio {
-  /* padding-top: 120px; */
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 
@@ -359,7 +368,7 @@ btn:focus {
   row-gap: 48px;
 }
 
-.benefits-description {
+.portfolio-description {
   letter-spacing: 0.02em;
   color: var(--primary-font-color);
 }
